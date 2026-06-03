@@ -1,0 +1,11 @@
+{
+  "name": "carepassport",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:frontend": "cd frontend && npm ci",
+    "build:frontend": "cd frontend && npm run build",
+    "vercel-build": "npm run install:frontend && npm run build:frontend",
+    "start": "node backend/server.js"
+  }
+}

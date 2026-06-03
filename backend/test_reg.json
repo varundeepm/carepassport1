@@ -1,0 +1,8 @@
+{
+    "email": "test_json@example.com",
+    "password": "password123",
+    "role": "patient",
+    "profile": {
+        "name": "JSON User"
+    }
+}

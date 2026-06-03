@@ -1,0 +1,10 @@
+node_modules/
+dist/
+npm-cache/
+MongoDB/
+.env
+.env.*
+!.env.example
+uploads/
+*.log
+.DS_Store

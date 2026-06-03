@@ -1,0 +1,25 @@
+db.patients.insertMany([
+  { patientId: "1", password: "password" },
+  { patientId: "2", password: "password" },
+  { patientId: "3", password: "password" }
+]);
+
+db.doctors.insertMany([
+  { doctorId: "1", password: "password" },
+  { doctorId: "2", password: "password" },
+  { doctorId: "3", password: "password" }
+]);
+// Example for patient login:
+db.patients.findOne({ patientId: "1", password: "password" });
+
+// Example for doctor login:
+db.doctors.findOne({ doctorId: "2", password: "password" });
+
+
+//open project
+cd frontend
+npm run  dev
+
+mongod and mongosh
+cd "D:\mini project 2\MongoDB\mongosh\mongosh-2.4.2-win32-x64\bin"
+cd "D:\mini project 2\MongoDB\Server\8.0\bin"
